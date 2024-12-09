@@ -18,7 +18,7 @@ export default function () {
     return <>
         <div className="flex items-center my-2">
             <div className="flex items-center ">
-                <a href="/">
+                <a href="https://gis.minapp.xin">
                     <img src="/img/logo.gif" className="w-8 h-8 rounded-full" />
                 </a>
                 <div className="mx-2 font-black">
