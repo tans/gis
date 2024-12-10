@@ -1,36 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#ERA5资料代下
+nc grib tif格式处理,转换,可视化
 
-## Getting Started
+年月日各种时间尺度处理,转换,可视化
 
-First, run the development server:
+可提供数据下载指导等服务
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+售前须知: 请详细说明数据需求,要什么地区,什么时间分辩率,什么要素, 什么时间段,要站点观洪数据还是网格数据,购买预算是多少。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+时间分辩率有: 逐小时、日、月、年
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+站点信息: 中国地面国家站+自动气象站(近7万站点)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+站点观洪要素: 降水、气温、最高温度、最低温度、相对
